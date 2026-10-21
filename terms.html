@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroSphere | Conditions Générales d'Utilisation & Politique de Confidentialité</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: { bg: '#07080e', card: '#0f111a', border: '#1e2235', accent: '#6366f1' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-cyber-bg text-gray-300 font-sans min-h-screen py-10 px-4 md:px-12 selection:bg-indigo-500 selection:text-white">
+
+    <div class="max-w-4xl mx-auto bg-cyber-card border border-cyber-border rounded-2xl p-6 md:p-10 shadow-2xl space-y-10">
+        
+        <!-- En-tête -->
+        <header class="border-b border-cyber-border pb-6 text-center">
+            <h1 class="text-2xl md:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400">
+                RETROSPHERE - LEGAL & COMPLIANCE
+            </h1>
+            <p class="text-xs text-gray-500 mt-2">Dernière mise à jour : 21 Octobre 2026</p>
+        </header>
+
+        <!-- Navigation interne -->
+        <nav class="flex justify-center gap-4 text-xs font-bold border-b border-cyber-border pb-4">
+            <a href="#tos" class="text-indigo-400 hover:underline">1. Conditions d'Utilisation (Terms)</a>
+            <a href="#privacy" class="text-pink-400 hover:underline">2. Politique de Confidentialité (Privacy)</a>
+            <a href="#dmca" class="text-purple-400 hover:underline">3. Politique DMCA & Droit d'Auteur</a>
+        </nav>
+
+        <!-- SECTION 1 : TERMS OF SERVICE -->
+        <section id="tos" class="space-y-4">
+            <h2 class="text-lg font-bold text-indigo-400 flex items-center gap-2">
+                <span>📜</span> 1. Conditions Générales d'Utilisation (Terms of Service)
+            </h2>
+            
+            <div class="space-y-3 text-xs leading-relaxed text-gray-400">
+                <p><strong>1.1 Acceptation des Conditions :</strong> En accédant et en utilisant la plateforme RetroSphere, vous acceptez sans réserve d'être lié par les présentes Conditions d'Utilisation et toutes les lois applicables.</p>
+                
+                <p><strong>1.2 Nature du Service ("Bring Your Own ROM") :</strong> RetroSphere est un émulateur et un environnement d'exécution basé sur les technologies WebAssembly et HTML5. La plateforme ne fournit, n'héberge ni ne distribue aucun fichier de jeu protégé par le droit d'auteur (ROMs commerciales). L'utilisateur est seul responsable des fichiers de ROM qu'il importe localement dans son propre navigateur.</p>
+                
+                <p><strong>1.3 Usage Autorisé :</strong> Vous vous engagez à n'utiliser sur la plateforme que des fichiers de jeux (ROMs) dont vous possédez légalement une copie originale ou des jeux indépendants libres de droits (Homebrews, Domaine Public, Fangames autorisés).</p>
+                
+                <p><strong>1.4 Exclusion de Garantie :</strong> Le service est fourni "en l'état" (AS IS) sans aucune garantie de disponibilité ininterrompue, de sécurité absolue des données de sauvegarde ou d'absence de bugs.</p>
+            </div>
+        </section>
+
+        <!-- SECTION 2 : PRIVACY POLICY -->
+        <section id="privacy" class="space-y-4 border-t border-cyber-border pt-6">
+            <h2 class="text-lg font-bold text-pink-400 flex items-center gap-2">
+                <span>🔒</span> 2. Politique de Confidentialité (Privacy Policy)
+            </h2>
+
+            <div class="space-y-3 text-xs leading-relaxed text-gray-400">
+                <p><strong>2.1 Collecte des Données Personnelles :</strong> RetroSphere ne collecte aucune donnée personnelle directement identifiable (nom, adresse physique, téléphone) sans votre consentement préalable.</p>
+
+                <p><strong>2.2 Traitement Local des Fichiers (Client-Side Only) :</strong> Les fichiers de jeux (ROMs), les états de sauvegarde (Save States) et les patchs de traduction chargés par l'utilisateur sont traités exclusivement en mémoire vive ou stockés localement dans le stockage interne de votre navigateur (IndexedDB / LocalStorage). Aucun fichier de jeu n'est transféré sur nos serveurs.</p>
+
+                <p><strong>2.3 Cookies et Publicités Tiers (Google AdSense) :</strong></p>
+                <ul class="list-disc pl-5 space-y-1">
+                    <li>Des fournisseurs tiers, y compris Google, utilisent des cookies pour diffuser des annonces basées sur les visites antérieures des utilisateurs sur ce site web ou sur d'autres sites.</li>
+                    <li>L'utilisation de cookies publicitaires par Google permet à celui-ci et à ses partenaires de diffuser des annonces auprès de vos utilisateurs en fonction de leur navigation sur vos sites et/ou d'autres sites sur Internet.</li>
+                    <li>Les utilisateurs peuvent choisir de désactiver la publicité personnalisée dans les <a href="https://www.google.com/settings/ads" target="_blank" class="text-indigo-400 underline">Paramètres des annonces Google</a>.</li>
+                </ul>
+
+                <p><strong>2.4 Peer-to-Peer (Netplay WebRTC) :</strong> Lors de l'utilisation du module multijoueur Netplay, une connexion directe en Peer-to-Peer est établie via la bibliothèque PeerJS. Votre adresse IP peut être visible par le joueur auquel vous vous connectez directement pour échanger les flux de données de la manette.</p>
+            </div>
+        </section>
+
+        <!-- SECTION 3 : DMCA & COPYRIGHT -->
+        <section id="dmca" class="space-y-4 border-t border-cyber-border pt-6">
+            <h2 class="text-lg font-bold text-purple-400 flex items-center gap-2">
+                <span>⚖️</span> 3. Notice DMCA & Droits d'Auteur
+            </h2>
+
+            <div class="space-y-3 text-xs leading-relaxed text-gray-400">
+                <p><strong>3.1 Respect des Droits de Propriété Intellectuelle :</strong> RetroSphere respecte scrupuleusement la propriété intellectuelle des créateurs, éditeurs et ayant-droits du jeu vidéo. Toutes les marques commerciales, noms de consoles et droits d'auteur appartiennent à leurs propriétaires respectifs.</p>
+
+                <p><strong>3.2 Procédure de Retrait (Takeway / DMCA) :</strong> Si vous êtes ayant-droit et que vous estimez qu'un contenu présent sur notre site viole vos droits d'auteur, veuillez nous envoyer une notification officielle comprenant :</p>
+                <ul class="list-disc pl-5 space-y-1">
+                    <li>La description précise de l'œuvre protégée.</li>
+                    <li>L'URL exacte du contenu incriminé.</li>
+                    <li>Vos coordonnées de contact et une déclaration sur l'honneur.</li>
+                </ul>
+                <p>Contact DMCA : <span class="text-indigo-400 font-mono">dmca@retrosphere-arcade.com</span></p>
+            </div>
+        </section>
+
+        <!-- Pied de page -->
+        <footer class="border-t border-cyber-border pt-6 text-center text-[10px] text-gray-500">
+            <p>&copy; 2026 RetroSphere Arcade. Tous droits réservés.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
